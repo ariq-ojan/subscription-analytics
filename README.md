@@ -9,9 +9,6 @@ Provides a simplified demonstration of how subsciption-based businesses might ma
 
 ## Case Study
 
-<div align="center">
-  <img src="https://github.com/ariq-ojan/subscription-analytics/blob/main/sporkify_banner.png" width='640'>
-</div>
 
 Sporkify is a recently launched subscription-based music streaming platform catered to music enthusiasts. They promotes sustainable business practices in the music industry, ensuring artists and musicians are paid faiarly.
 
