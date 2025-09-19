@@ -13,9 +13,13 @@ Provides a simplified demonstration of how subsciption-based businesses might ma
   <img src="https://github.com/ariq-ojan/subscription-analytics/blob/main/sporkify_banner.png" width='640'>
 </div>
 
-Sporkify is a recently launched subscription-based music streaming platform catered to music enthusiasts. They promotes sustainable business practices in the music industry, ensuring artists and musicians are paid faiarly. They have also been found to run anti-authoritarian ads.
+Sporkify is a recently launched subscription-based music streaming platform catered to music enthusiasts. They promotes sustainable business practices in the music industry, ensuring artists and musicians are paid faiarly.
 
-Since their IT infrastructures aren't fully set up yet, **the customer and product team** requires a tool to manage all subscriptions and generate reports up until **January 1st, 2026**.
+Since their IT infrastructures aren't fully set up yet, **the customer and product team** requires a tool to manage all subscriptions and generate simple reports up until **January 1st, 2026**.
+
+## Limitations
+- Program is restricted to the year of 2025, current time is **frozen at December 31st, 2025.**
+- As a mockup, this program does not have any memory, any changes made to the database **will be lost after exit.**
 
 ## Functions
 ### User Management
@@ -36,7 +40,7 @@ Since their IT infrastructures aren't fully set up yet, **the customer and produ
 - `clv_calculator(users)` → Calculate customer lifetime value (CLV)  
 - `channel_percentage(users)` → Show percentage breakdown of acquisition channels
 
-## Database Structure
+## User Data Structure
 ```python
   {
     "1": {                             # user_id and key of the dictionary
@@ -54,9 +58,72 @@ Since their IT infrastructures aren't fully set up yet, **the customer and produ
         ]
     }  
   ```
+The program contains **10 hard-coded existing subscribers data**. New users can be added using the "Add New User" menu.
+## How to Use
+
+### Main Menu
+```python
+========================================
+SPORKIFY SUBSCRIPTION ANALYTICS TOOL
+========================================
+1. Show user database
+2. Add new users
+3. Delete users
+4. Manage subscriptions
+5. Subscription Insights
+6. Exit program
+
+Select menu option (1-6):
+```
+The program is simple and intuitive, users can select their desired menu option by entering their menu numbers in the terminal. This will be the main way to navigate the menus throughout the program.
+
+### Manage Subscription Menu
+
+```python
+
+Enter User ID:
+
+==================================================
+SUBSCRIPTION MANAGEMENT - User Name (ID: User ID)
+==================================================
+1. View Subscription History
+2. Start New Subscription
+3. Stop Current Subscription
+4. Change Plan
+5. Change Name
+6. Back to Main Menu
+==================================================
+Input your selected menu (1-6):
+```
+Upon selecting this menu, users will be shown a list of User IDs and their respective names. They will next be asked to input user ID which will be used for all the sub-functions of this menu. 
+
+### Subscription Insight Menu
+```python
+
+==================================================
+SUBSCRIPTION INSIGHT
+==================================================
+1. Churn Report
+2. Monthly Recurring Revenue (MRR)
+3. Customer Lifetime Value (CLV)
+4. Acquisition Channel Percentage
+5. Return to main menu
+==================================================
+Input your selected menu (1-5):
+```
+Some options from this menu will ask users to enter a specific month (1-12) or a User ID.
 
 
+## Installation
 
+The tool provided in the download page is an executable file (.exe) and **does not require installation**. 
 
+Requirements:
+- [Python 3.10 or above](https://www.python.org/downloads/)
+- [Tabulate Library](https://pypi.org/project/tabulate/)
 
-
+## Features Coming Soon!
+1. Saving data to files (Program will remember changes after exit)
+1. SQL database migration
+2. CSV Import/Export
+3. Advanced Analytics: Cohort Analysis, Custom Date Ranges for all functions
