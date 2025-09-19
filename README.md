@@ -3,6 +3,8 @@
 ### About This Tool
 A Python-based CRUD program designed as a case study simulating the management and analytics for a mock subscription-based service. This program replicates how administrators can manage user records and derive analysis from subscriber data.
 
+Access the full source code [here](https://github.com/ariq-ojan/subscription-analytics/blob/main/sporkify_subscriber_analytics_tool.py)
+
 ## Project Overview
 Provides a simplified demonstration of how subsciption-based businesses might manage and analyze their customer data and acquire insights.
 - **CRUD Functionality:** Create, Read, Update, and delete users to and from the database
