@@ -8,7 +8,9 @@ Provides a simplified demonstration of how subsciption-based businesses might ma
 - **Insights & Reports:** Report key subscription metrics such as churn rate, CLV, MRR, and acquisition channels.
 
 ## Case Study
-
+<div align="center">
+  <img src="https://github.com/ariq-ojan/subscription-analytics/blob/main/new_sporkify_banner.png">
+</div>
 
 Sporkify is a recently launched subscription-based music streaming platform catered to music enthusiasts. They promotes sustainable business practices in the music industry, ensuring artists and musicians are paid faiarly.
 
