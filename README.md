@@ -1,4 +1,6 @@
 # 🟢 Subscription Analytics Tool
+
+### About This Tool
 A Python-based CRUD program designed as a case study simulating the management and analytics for a mock subscription-based service. This program replicates how administrators can manage user records and derive analysis from subscriber data.
 
 ## Project Overview
@@ -16,11 +18,7 @@ Sporkify is a recently launched subscription-based music streaming platform cate
 
 Since their IT infrastructures aren't fully set up yet, **the customer and product team** requires a tool to manage all subscriptions and generate simple reports up until **January 1st, 2026**.
 
-## Limitations
-- Program is restricted to the year of 2025, current time is **frozen at December 31st, 2025.**
-- As a mockup, this program does not have any memory, any changes made to the database **will be lost after exit.**
-
-## Functions
+## Main Features
 ### User Management
 - `show_user_database(users)` → Display a summary view of all users  
 - `add_user(users)` → Add new user to database  
@@ -34,9 +32,9 @@ Since their IT infrastructures aren't fully set up yet, **the customer and produ
 - `change_name(user_id)` → Update user's name  
 
 ### Subscription Insights
-- `churn_report(users)` → Generate churn report and churn rate  
-- `mrr_calculator(users)` → Calculate monthly recurring revenue (MRR)  
-- `clv_calculator(users)` → Calculate customer lifetime value (CLV)  
+- `churn_report(users)` → Calculate percentage of churned users / total users at end of year
+- `mrr_calculator(users)` → Calculate recurring revenue each month, divided per plan 
+- `clv_calculator(users)` → Calculate a user's lifetime value at end of year 
 - `channel_percentage(users)` → Show percentage breakdown of acquisition channels
 
 ## User Data Structure
@@ -58,6 +56,11 @@ Since their IT infrastructures aren't fully set up yet, **the customer and produ
     }  
   ```
 The program contains **10 hard-coded existing subscribers data**. New users can be added using the "Add New User" menu.
+
+## Limitations
+- Program is restricted to the year of 2025, current time is **frozen at December 31st, 2025.**
+- As a mockup, this program does not have any memory, any changes made to the database **will be lost after exit.**
+
 ## How to Use
 
 ### Main Menu
@@ -126,3 +129,9 @@ Requirements:
 1. SQL database migration
 2. CSV Import/Export
 3. Advanced Analytics: Cohort Analysis, Custom Date Ranges for all functions
+
+© 2025 Ariq Fauzan. All rights reserved
+You’re free to use, modify, and distribute this project with proper attribution.
+
+📧 Email: [mariqfauzan@gmail.com](mailto:mariqfauzan@gmail.com)  
+💼 LinkedIn: [Ariq Fauzan](https://www.linkedin.com/in/ariq-fauzan/)
