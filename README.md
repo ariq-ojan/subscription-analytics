@@ -1,4 +1,4 @@
-# 🟢 Subscription Analytics Tool
+# 🟢 Subscription Management & Analytics Tool
 
 ### About This Tool
 A Python-based CRUD program designed as a case study simulating the management and analytics for a mock subscription-based service. This program replicates how administrators can manage user records and derive analysis from subscriber data.
